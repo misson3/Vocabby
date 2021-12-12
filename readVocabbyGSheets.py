@@ -77,7 +77,7 @@ def sendMsgTo3B1(msg):
     node-red is working on 3Bp1
     """
     # TODO: raspi ip is needed
-    host = "http://<YOUR RASBPI IP>/xxxxx"
+    host = "http://<YOUR RASPI IP>/xxxxx"
     lang = 'en-US'  # only ja for now.
     myData = {'message': msg, 'language': lang}
     print('[debug sendMsgTo3B1()] posting:', msg)
